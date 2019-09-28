@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  background: #333 url('https://source.unsplash.com/daily') no-repeat center
+    center/cover;
+  color: #fff;
+  height: 100vh;
+  text-align: center;
+  padding: 2rem;
+  padding-top: 15rem;
+}
+header h1 {
+  font-size: 3rem;
+}
+header p {
+  margin: 1rem 0;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #f4f4f4;
+  color: #333;
+  padding: 0.75rem 2rem;
+}
+span {
+  color: #382f26;
+}
+/* .container {
+  width: 80vh;
+  margin: auto;
+} */
+section {
+  background: rgba(0, 0, 0, 0.829);
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+}
+section h3 {
+  font-size: 3rem;
+}
+
+@media (max-height: 540px) {
+  header {
+    padding-top: 5rem;
+  }
+}
